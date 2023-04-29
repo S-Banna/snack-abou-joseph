@@ -43,9 +43,22 @@ table {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-body {
+html, body {
     margin: 0;
     background-color: rgba(247,247,247,255);
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .headcont {
@@ -63,7 +76,7 @@ body {
     padding-right: 50px;
 }
 
-.headerest>button {
+.headerest>button, .findushere {
     font-weight: 900;
     font-size: 14px;
     padding: 10px 20px;
@@ -71,7 +84,7 @@ body {
     border-radius: 2px;
     color: rgb(104, 83, 87);
     background-color: rgba(247,247,247,255);
-    transition: all 0.5s;
+    transition: all 0.4s;
 }
 
 .headerest>button:hover {
@@ -90,4 +103,33 @@ body {
     height: 100%;
     object-fit: cover;
     overflow: hidden;
+}
+
+.footercont {
+    background-color: white;
+    width: 100%;
+    min-width: 100%;
+}
+
+.footercont>img {
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.bodycont {
+    display: flex;
+    flex-direction: column;
+}
+
+.find {
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.maps {
+    width: 500px;
+    height: 400px;
 }
