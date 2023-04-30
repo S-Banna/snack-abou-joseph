@@ -51,7 +51,7 @@ html, body {
 html, body{
     padding: 0;
     margin: 0;
-    width: 100vw;
+    width: 98.93vw;
 }
 body{
     display: flex;
@@ -63,7 +63,7 @@ body{
     display: flex;
     flex: 1;
     height: 10vh;
-    width: 100vw;
+    width: 98.93vw;
     align-items: center;
     justify-content: space-between;
 }
@@ -76,7 +76,6 @@ body{
 .headerest>button, .findushere {
     font-weight: 900;
     font-size: 14px;
-    padding: 1vh 1vw;
     border-color: pink;
     border-radius: 2px;
     color: rgb(104, 83, 87);
@@ -104,8 +103,8 @@ body{
 
 .footercont {
     background-color: white;
-    width: 100%;
-    min-width: 100%;
+    width: 98.93vw;
+    min-width: 98.93vw;
 }
 
 .footercont>img {
@@ -118,6 +117,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 4vh;
+    width: 98.93vw;
+    margin-top: 1vh;
 }
 
 .find {
@@ -125,6 +126,7 @@ body{
     flex-direction: column;
     height: 50vh;
     justify-content: center;
+    gap: 1vh;
 }
 
 .maps {
@@ -132,4 +134,45 @@ body{
     height: 50vh;
     margin: auto;
     padding: auto;
+}
+
+.food {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-color: rgba(247,247,247,255);
+}
+
+.foodimg {
+    width: 50%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.foodflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 10vw;
+}
+
+.locat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7vh;
+}
+
+.locationtext {
+    font-weight: 900;
+    font-size: 14px;
+    color: rgb(104, 83, 87);
+    font-size: 30px;
+}
+
+.locationimg {
+    width: 50%;
 }
